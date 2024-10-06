@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Kumar Gupta - Resume</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            background-color: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        ul li:hover {
+            background-color: #d0d9e2;
+        }
+        /* Adding skill bars */
+        .skill-bar {
+            position: relative;
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            margin: 5px 0;
+            padding: 5px;
+            overflow: hidden;
+        }
+        .skill-bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            background-color: #3498db;
+            width: 0;
+            animation: fillBar 1.5s forwards;
+        }
+        .skill-name {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+        }
+
+        /* Animations */
+        @keyframes fillBar {
+            to {
+                width: 90%;
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 style="text-align: center;">Arvind Kumar Gupta</h1>
+    <div class="contact-info">
+        <p><strong>Mobile:</strong> 8858008757</p>
+        <p><strong>Email:</strong> 3094.arvind@gmail.com</p>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Highly passionate professional with 4+ years of experience in Manual as well as Automation testing.</p>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        <h3>Project: AutoTestSanta (June 2021 – Present)</h3>
+        <p><strong>Role:</strong> Test Engineer (Manual with Automation)</p>
+        <ul>
+            <li>Developed automation scripts using Java, Selenium WebDriver, and the TestNG framework.</li>
+            <li>Conducted code reviews for peers' automation scripts.</li>
+            <li>Planned and prepared test cases according to user stories and requirements.</li>
+            <li>Participated in daily scrums and other requirement calls with stakeholders.</li>
+            <li>Conducted cross-browser testing for both existing and new test cases.</li>
+            <li>Raised defects in JIRA and followed up with developers until closure.</li>
+        </ul>
+
+        <h3>Project: TestSanta (May 2020 – June 2021)</h3>
+        <p><strong>Role:</strong> Test Engineer (Manual)</p>
+        <ul>
+            <li>Understood the Requirement Specifications (RS).</li>
+            <li>Designed and executed test scenarios and test cases.</li>
+            <li>Conducted System Testing, Regression Testing, Functional Testing, and GUI Testing.</li>
+            <li>Logged defects correctly and tracked them until closure.</li>
+            <li>Collaborated with the development team regarding requirement modifications.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <div class="skill-bar-fill"></div>
+            <span class="skill-name">Manual Testing</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-fill"></div>
+            <span class="skill-name">Automation Testing</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-fill"></div>
+            <span class="skill-name">Selenium WebDriver</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-fill"></div>
+            <span class="skill-name">TestNG</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-fill"></div>
+            <span class="skill-name">Agile Methodologies</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-fill"></div>
+            <span class="skill-name">API Testing</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech in Mechanical Engineering</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Software Testing from Q-Spiders</li>
+            <li>FireFlink Crowd Testing certification from FireFlink</li>
+            <li>Agile-Scrum Foundation Certification from SkillUP</li>
+            <li>Introduction to JIRA from SkillUP</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
